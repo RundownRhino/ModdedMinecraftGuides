@@ -5,9 +5,13 @@ by ConfusedReptile#6830
 
 This guide is made for people with little or none experience in modded Minecraft. However, it's not meant to be a simple step-by-step "what to do" guide (though it has that too!), but rather aims to provide a detailed understanding of how modded Minecraft works, which normally only comes from experience messing with it.
 
-The guide tries to be OS-agnostic, but was written by a Windows user and mostly involves Windows examples. If anything in the guide is incorrect for other platforms, let me know!
+**Current status**: first public version.
 
-As this is a rather lofty goal, we must start far away - with...
+The guide tries to be OS-agnostic, but was written by a Windows user and mostly involves Windows examples.
+
+If anything in the guide is incorrect for other platforms, or just incorrect in general, please let me know!
+
+Now, as this is a rather lofty goal, we must start far away - with...
 
 ## The Java Virtual Machine
 
