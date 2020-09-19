@@ -99,7 +99,7 @@ The [FTB Launcher](https://www.feed-the-beast.com/) (more specifically, the new 
 
 An installed (into a MultiMC instance in my case) Forge modpack usually looks something like this:
 
-![Screenshot of a modpack folder](files/modpack_folder.png)
+![Screenshot of a modpack folder](files/modpack_folder.PNG)
 
 That's a lot of folders and files there! Don't worry, though, only some of them you want to know about:
 - the `mods` folder, present in any Forge modpack, stores the mods of the modpack. Specifically, when the modpack is launched, the FML loads every `.jar` file in `mods` as a mod. This tells you how to **disable a mod**, by the way - it's enough to either take it out of the folder or change its extension. For example, MultiMC disables mods by changing their extensions from `.jar` to `.jar.disabled` (which naturally don't count as `.jar` files and are ignored by the FML).
@@ -122,7 +122,7 @@ See [Installing Java](#installing-java).
 The server files generally look about like the client files (see [Anatomy of a Modpack](#anatomy-of-a-modpack)), and in fact may be identical in some cases - some mods are only useful clientside or serverside, but it's possible for a mod to recognize whether it's on a client or a server, so most mods will just do nothing when launched on the wrong side.
 
 If your modpack is on Curseforge, the server files are generally available there too, as just `.zip` files to unpack in a location of your choice. Here's how it may look:
-![Example of Server files on curseforge](files/server_files_example.png)
+![Example of Server files on curseforge](files/server_files_example.PNG)
 
 FTB modpacks allow downloading the modpack files from the FTBApp or from the site. They, however, are shipped not as zip-archives, but as executables - `.exe` for Windows, extensionless for Linux. The user is supposed to put them into a folder where they want the modpack to be installed, launch it, and if everything goes right, the installation process will be handled for them.
 
@@ -137,11 +137,11 @@ FTB server file installers (see 1)) always install Forge along with the modpack.
 If Forge does *not* come with the files (pretty common, as shipping Forge with the files deprives the Forge developers of advertisement income), you'll have to do so manually. For that:
 - Find out what Forge version the client version of the modpack uses. In MultiMC, you can see that in Edit Instance; other launchers likely also have that ability. If you really can't find out for some reason, assume it's the latest one (usually not just the latest *recommended* one) for that Minecraft version.
 - Download that Forge version from [the site](https://files.minecraftforge.net/). You want the *installer*. For example, the latest 1.12.2 version:
-![screenshot of Forge's site](files/forge_installer_download.png)
+![screenshot of Forge's site](files/forge_installer_download.PNG)
 
 - Run the installer, choose Install Server, and point it to the folder you unpacked the server files to.
 - After the installation, you should end up with the following additional files and folders:
-![screenshot of installed Forge](files/forge_server_installed.png)
+![screenshot of installed Forge](files/forge_server_installed.PNG)
 
 where the jars will be called accordingly depending on the Minecraft and Forge versions.
 
