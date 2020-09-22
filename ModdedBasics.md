@@ -94,6 +94,7 @@ A modded launcher is a program that helps with managing and launching modpacks. 
 Before installing a launcher: 
 
 I personally recommend [MultiMC](https://multimc.org/) as a general-purpose launcher - it is lightweight, reliable and can do all of the above. The only disadvantage it has is that it doesn't have an inbuilt *browser* of Curseforge modpacks - you need to find a modpack you want to play on Curseforge, download the modpack manifest file (essentially a small `.zip` archive containing the custom scripts/recipes for the pack, but not the mods - only a file specifying what mods and of what versions must be installed), and import it as a new instance (or just drag-and-drop it into MultiMC). The launcher will handle the rest.
+EDIT: The latest development builds of MultiMC can now search Curseforge for packs.
 
 In case you *do* really want to be able to install Curseforge modpacks and mods from the launcher itself, then you probably want [GDLauncher](https://gdevs.io/) or the [Twitch Launcher](https://help.twitch.tv/s/article/How-to-Play-Minecraft-with-Twitch-App). The latter is very popular (the most popular modded minecraft launcher, maybe?), but notoriously has some problems (like certain modpacks randomly refusing to be installed for *days*) that can't be solved by the users.
 
